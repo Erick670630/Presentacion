@@ -1,0 +1,64 @@
+/* Estilos generales */body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em0;
+}
+
+/* Sección de información */.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: #fff;
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0010pxrgba(0, 0, 0, 0.1);
+}
+
+.perfil-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.details {
+    max-width: 500px;
+}
+
+/* Sección de imágenes */.images {
+    padding: 2em;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-galleryimg {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 005pxrgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
